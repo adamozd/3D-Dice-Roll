@@ -8,6 +8,7 @@ import random
 root=Tk()
 #define geometry
 root.geometry("400x400")
+root.title("2D Dice Roller 2022")
 
 #GUI will have two basic components
 #1.Button which will trigger the rolling of dice
