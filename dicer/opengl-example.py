@@ -1,9 +1,9 @@
 import sys
+
 from OpenGL.GL import *
 from OpenGL.GLU import *
-from PyQt5 import QtGui
+from PyQt5 import QtCore, QtGui, QtWidgets #works for pyqt5
 from PyQt5.QtOpenGL import *
-from PyQt5 import QtCore, QtWidgets, QtOpenGL
 
 
 class Ui_MainWindow(QtWidgets.QWidget):
