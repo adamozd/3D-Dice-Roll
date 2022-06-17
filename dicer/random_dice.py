@@ -23,8 +23,8 @@ def roll():
     #Use backslash because unicode must have a backslash 
     dice=['\u2680','\u2681','\u2682','\u2683','\u2684','\u2685']
     #configure the label
-    l1.config(text=f'{random.choice(dice)}{random.choice(dice)}')
-    l1.pack()
+    #l1.config(text=f'{random.choice(dice)}{random.choice(dice)}')
+    #l1.pack()
     #value of dice numbers
     #unicodes and value of correspondings
     numbers = {'\u2680':1, '\u2681':2,
@@ -33,6 +33,9 @@ def roll():
     
     d1 = random.choice(dice)
     d2 = random.choice(dice)
+    
+    l1.config(text=f'{random.choice(d1)}{random.choice(d2)}')
+    l1.pack()
 
     
     if d1 in numbers.keys():
